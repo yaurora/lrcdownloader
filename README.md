@@ -13,19 +13,19 @@ Docker installed on your system
 Usage
 Clone the repository:
 ```shell
-git clone https://github.com/yaurora/lycdownloader.git
+git clone https://github.com/yaurora/lrcdownloader.git
 ```
 Navigate to the project directory:
 ```shell
-cd lycdownloader
+cd lrcdownloader
 ```
 Build the Docker image:
 ```shell
-docker build -t lycdownloader .
+docker build -t lrcdownloader .
 ```
 Run the Docker container:
 ```shell
-docker run -v /path/to/music/folder:/music -v /path/to/lyrics/output:/lyrics lycdownloader
+docker run -v /path/to/music/folder:/music -v /path/to/lyrics/output:/lyrics lrcdownloader
 ```
 Replace /path/to/music/folder with the actual path to the folder containing your music files, and /path/to/lyrics/output with the path where you want to store the downloaded lyrics files.
 
