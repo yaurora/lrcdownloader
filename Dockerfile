@@ -5,6 +5,6 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY lyrics_watcher.py .
+COPY app.py .
 
 CMD ["python", "app.py", "/music", "https://lrc.xms.mx/lyrics", "/lyrics"]
